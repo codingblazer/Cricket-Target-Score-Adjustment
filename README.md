@@ -1,6 +1,12 @@
 # Model for Score Revision in International Cricket (T20 Matches)
 
-In matches interrupted by bad weather in International Cricket, the target score for batting-second team is readjusted using DuckWorth-Lewis-Stern Model. But this model has failed many times by giving unsatisfactory results. The detailed analysis on weaknesses of this model and other proposed models will be discussed soon (with supported examples where they fail).
+In matches interrupted by bad weather in International Cricket, the target score for batting-second team is readjusted using DuckWorth-Lewis-Stern Model. But this model has failed many times by giving unsatisfactory results. 
+
+This is DLS Model results :
+
+<img src="https://user-images.githubusercontent.com/13872065/31688351-b9c4ced0-b3a9-11e7-8ece-ca1554963aa2.png">
+
+As shown in above result, Duckworth Model fails miserably in T20 Cricket. After applying Duckworth Model, Team2 need just 7 runs to win in one over with 10 wickets left. It is almost not possible for Team1 to win from here, even though their score of 233 was excellent. The detailed analysis on weaknesses of Duckworth model and other proposed models will be discussed later.
 
 This project proposes an alternate algorithm for revision of scores in International Cricket. This method is essentially an algorithm based on following argument :
 
