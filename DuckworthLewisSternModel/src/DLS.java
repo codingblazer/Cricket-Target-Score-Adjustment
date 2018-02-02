@@ -1,9 +1,6 @@
 
 import java.util.Objects;
 
-/**
- * @author ameya
- */
 public class DLS {
 
     // This is for full member nations/first class. Use 200 for lower level matches.
